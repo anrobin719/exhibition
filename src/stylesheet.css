@@ -6,55 +6,46 @@ body, html {
 }
 
 body {
-    background: black url("images/bg3.jpg") no-repeat top/cover;
+    background: url("images/bg3.jpg") no-repeat top/cover;
+    overflow: hidden;
+}
+
+#container {
+    width: 1400px;
+    height: 100%;
+    margin: 0 auto;
 }
 
 header {
     position: relative;
     height: 15%;
     width: 100%;
-    
 }
 
 h1 {
     position: absolute;
-    margin: 0;
+    margin: 0 45%;
     padding: 0;
-    top: 35px;
-    left: 50px;
-    width: 80px;
+    top: 32px;
+    left: 0;
+    width: 160px;
     height: 80px;
 }
 
 h1 img {
-    width: 80px;
+    width: 160px;
     height: 80px;
 }
-
-
-#hamburger {
-    position: absolute;
-    top: 60px;
-    right: 60px;
-    width: 40px;
-    height: 40px;
-}
-
-#hamburger img {
-    width: 40px;
-    height: 40px;
-}
-
 
 
 
 /************************************************************
 MAIN*/
 main {
-    color: white;
+    color: #333;
     font-family: helvetica, sans-serif;
     position: relative;
-    width: 70%;
+    width: 1400px;
     height: 85%;
     overflow: hidden;
     margin: 0 auto;
@@ -69,28 +60,27 @@ main::before{
     left: 0;
     width: 100%;
     height: 100%;
-    border-radius: 30px;
-    background-color: #000;
+    background-color: #fff;
     opacity: 0.8;
 }
 
 .sec{
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 section {
     overflow: hidden;
-    width: 1100px;
-    height: 250px;
-    outline: 1px solid cyan;
-    margin: 170px auto 50px;
+    width: 950px;
+    height: 200px;
+    /*outline: 1px solid cyan;*/
+    margin: 240px auto 70px;
 }
 
 
 section .image {
     float: left;
-    width: 350px;
-    height: 250px;
+    width: 280px;
+    height: 200px;
     /*outline: 1px solid cyan;*/
     margin: 0;
 }
@@ -98,12 +88,14 @@ section .image {
 section .description {
     float: right;
     /*outline: 1px solid cyan;*/
-    width: 60%;
-    height : 200px;
-    margin: 20px 40px 20px 0;
+    width: 600px;
+    height : 180px;
+    margin: 0;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     line-height: 28px;
+    font-weight: 200;
 }
 
 
@@ -117,3 +109,16 @@ section #paperImg {
 
 
 
+h2 {
+    position: absolute;
+    font-size: 48px;
+    left: 0;
+    top: 90px;
+    margin: 0 35%;
+}
+
+h3 {
+    padding: 0;
+    margin: 15px 0;
+    font-size: 24px;
+}
