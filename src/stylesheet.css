@@ -1,18 +1,18 @@
 body, html {
     width: 100%;
-    height: 100%;
+    height: 130%;
     padding: 0;
     margin: 0;
 }
 
 body {
     background: url(../src/images/bg3.jpg) no-repeat top/cover;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 div#container {
     width: 1400px;
-    height: 100%;
+    height: 1500px;
     margin: 0 auto;
 }
 
@@ -26,7 +26,7 @@ header h1 {
     position: absolute;
     margin: 0 45%;
     padding: 0;
-    top: 32px;
+    top: 70px;
     left: 0;
     width: 160px;
     height: 80px;
@@ -73,8 +73,9 @@ section {
     width: 950px;
     height: 200px;
     /*outline: 1px solid cyan;*/
-    margin: 240px auto 70px;
+    margin: 300px auto 70px;
     border-radius: 100px;
+    box-shadow: 0 5px 20px 0px rgba(0,0,0,0.2);
 }
 
 
@@ -108,13 +109,17 @@ section #paperImg {
     background: url(../src/images/exhibition2.jpg) no-repeat center/cover;
 }
 
+section #pinImg {
+    background: url(../src/images/exhibition3.jpg) no-repeat right/100% 100%;
+}
+
 
 
 h2 {
     position: absolute;
     font-size: 48px;
     left: 0;
-    top: 100px;
+    top: 150px;
     margin: 0 35%;
 }
 
@@ -152,10 +157,14 @@ section>div.hoverBox {
     width: 280px;
     height: 200px;
     overflow: hidden;
-    transition: width 1s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 
 section>div.hoverBox:hover {
+    width: 950px;
+}
+
+section>div.hoverBox:hover  {
     width: 950px;
 }
