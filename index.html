@@ -4,44 +4,55 @@
 <head>
     <meta charset="UTF-8">
     <title>Exhibition</title>
-    <link href="stylesheet.css" rel="stylesheet">
+    <link href="src/stylesheet.css" rel="stylesheet">
 </head>
 
 <body>
-<div id="container">
-    <header>
-        <h1><img src="images/logo2-02.svg"></h1>
-    </header>
+    <div id="container">
+        <header>
+            <h1><img src="src/images/logo.svg"></h1>
+        </header>
 
-    <!--------------------------------------------------------------
+        <!--------------------------------------------------------------
     BLACK CONTAINER BOX-->
 
-    <main>
-        <h2>Current Exhibition</h2>
-        <!--------------------------------------------------------------
+        <main>
+            <h2>Current Exhibition</h2>
+            <!--------------------------------------------------------------
         FIRST LINE-->
-        <section>
-            <div id="lightImg" class="image">
-            </div>
-            <div id="lightDsc" class="description">
-               <h3 class="hadding">Lacus interdum</h3>
-                Lorem ipsum dolor sit amet, faucibus mattis amet amet. Conubia mauris. Nulla molestie ut duis tellus egestas, orci tellus a ut urna. Risus risus et libero blandit nunc. Elit eu eu ac a, malesuada suscipit tempus sit.
-            </div>
-        </section>
-        
-        <!--------------------------------------------------------------
-        SECOND LINE-->
-        <section class="sec">
-            <div id="paperImg" class="image">
-            </div>
-            <div id="paperDsc" class="description">
-               <h3 class="hadding">Vel volutpat</h3>
-                Lorem ipsum dolor sit amet, faucibus mattis amet amet. Conubia mauris. Nulla molestie ut duis tellus egestas, orci tellus a ut urna. Luctus faucibus convallis, nam vel ut delectus, aliquam viv
-            </div>
-        </section>
-    </main>
-</div><!--container end-->
-<!--<a href="https://www.freepik.com/free-photos-vectors/logo">Logo vector created by freepik - www.freepik.com</a>-->
-</body>
+            <section>
+                <div class="hoverBox">
+                    <div id="lightImg" class="image"></div>
+                    <div class="info">
+                        Exhibition Name - Lacus interdum<br>
+                        Lacation : 35-1, garimdong 3, Jonnogu, Seoul<br>
+                        Contact : (82)02-468-2584
+                    </div>
+                </div><!--end .hoverBox-->
+                <div class="description">
+                    <h3 class="hadding">Lacus interdum</h3>
+                    Lorem ipsum dolor sit amet, faucibus mattis amet amet. Conubia mauris. Nulla molestie ut duis tellus egestas, orci tellus a ut urna.
+                </div>
+            </section>
 
-</html>
+            <!--------------------------------------------------------------
+        SECOND LINE-->
+            <section class="sec">
+                <div class="hoverBox">
+                    <div id="paperImg" class="image"></div>
+                    <div class="info">
+                        Exhibition Name - Vel volutpat<br>
+                        Lacation : 35-1, garimdong 3, Jonnogu, Seoul<br>
+                        Contact : (82)02-468-2584
+                    </div>
+                </div><!--end .hoverBox-->
+                <div class="description">
+                    <h3 class="hadding">Vel volutpat</h3>
+                    Nulla molestie ut duis tellus egestas, orci tellus a ut urna. Luctus faucibus convallis, nam vel ut delectus.
+                </div>
+            </section>
+        </main>
+    </div>
+    <!--container end-->
+    <!--<a href="https://www.freepik.com/free-photos-vectors/logo">Logo vector created by freepik - www.freepik.com</a>-->
+</body></html>
