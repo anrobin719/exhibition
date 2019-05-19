@@ -67,6 +67,19 @@ main::before {
     opacity: 0.8;
 }
 
+/*
+
+::before {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+*/
+
 section.sec {
     margin-top: 70px;
 }
@@ -75,7 +88,6 @@ section {
     overflow: hidden;
     width: 950px;
     height: 200px;
-    /*outline: 1px solid cyan;*/
     margin: 300px auto 70px;
     border-radius: 100px;
     box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2);
@@ -86,13 +98,11 @@ section {
     float: left;
     width: 280px;
     height: 200px;
-    /*outline: 1px solid cyan;*/
     margin: 0;
 }
 
 div.description {
     float: right;
-    /*outline: 1px solid cyan;*/
     width: 670px;
     height: 200px;
     margin: 0;
@@ -169,9 +179,8 @@ section > div.hoverBox:hover {
     width: 950px;
 }
 
-section > div.hoverBox:hover {
-    width: 950px;
-}
+
+/*
 
 .image::before {
     content: "";
@@ -195,3 +204,5 @@ section > div.hoverBox:hover .image::before {
     background-color: #fff;
     opacity: 0;
 }
+
+*/
